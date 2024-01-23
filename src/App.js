@@ -1,8 +1,10 @@
 import './App.css';
+import Navbar from './components/Navbar/Navbar'
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-gray-600 h-screen">
+      <Navbar />
     </div>
   );
 }
