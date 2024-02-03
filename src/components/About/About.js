@@ -1,9 +1,24 @@
-import React from 'react'
+import React from 'react';
+import TC from '../../images/TC_SVG.svg'
 
 function About() {
   return (
-    <div>About</div>
-  )
+    <div className="about-container text-lg flex flex-col justify-items-center items-center content-center justify-center md:w-5/12 md:h-full">
+      <img src={TC} className="w-2/12 p-3 text-white"></img>
+      <h1 className="text-3xl">Tucker Craig</h1>
+      <h2 className="text-2xl">Full-Stack Software Engineer</h2>
+
+      
+        <p className="w-9/12 pt-6">
+            Hello! I'm Tucker Craig, a Software Engineer and Teaching Assistant at EdX, specializing in Full-Stack Development.
+        </p>
+            
+        <p className="w-9/12 pt-6">
+            My drive in technology stems from a deep curiosity about every component and its workings. Beyond coding, my experience ranges from mentoring at EdX to creating IoT devices and undertaking extensive plumbing projects. This variety sharpens my problem-solving abilities and enhances my teamwork approach. Motivated by challenges, I aim to innovatively impact the world, drawing inspiration from pioneers like Gladys West, and striving to create technology that subtly yet significantly improves lives.
+        </p>
+        <div className="p-2">Contact</div>
+    </div>
+  );
 }
 
-export default About
+export default About;
