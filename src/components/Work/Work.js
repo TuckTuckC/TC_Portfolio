@@ -5,7 +5,7 @@ import projects from '../../data/projectData';
 
 function Work() {
   return (
-    <div className="flex flex-col items-center gap-20 md:mt-8">
+    <div className="flex flex-col items-center gap-20 md:mt-96">
         <h1 className='text-4xl text-gray-200'>My Work</h1>
         {projects.map((project, index) => (
             <div className="project p-4 rounded-md items-center w-11/12 gap-10 md:w-8/12 h-max flex flex-col md:flex-row">

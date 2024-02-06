@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 } */
+
+* {
+  font-size: 1.06rem;
+  line-height: 1.53rem;
+}
+
+.scrollable {
+    /* Hide scrollbar for Webkit browsers */
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  
+    /* Hide scrollbar for Firefox */
+    scrollbar-width: none;
+  
+    /* Hide scrollbar for IE */
+    -ms-overflow-style: none;
+}

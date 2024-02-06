@@ -10,13 +10,13 @@ function App() {
   return (
     <div className="App flex flex-col text-gray-400">
         <Navbar />
-        <div className="mb-20 md:pt-20 md:h-screen flex-grow flex flex-col md:mb-0 md:flex-row">
+        <section id="section1" className="mb-20 md:px-20 md:pt-0 md:h-screen flex-grow flex flex-col md:mb-0 md:flex-row">
           <About />
-          <div className="mt-20 pb-10 w-full h-fit gap-20 md:h-full text-lg flex flex-col md:mt-0 md:w-8/12 md:h-full md:overflow-auto">
+          <div className="scrollable mt-20 pb-10 w-full h-fit gap-20 md:h-full text-lg flex flex-col md:mt-0 md:w-8/12 md:h-full md:overflow-auto">
             <Work />
             <Experience />
           </div>
-        </div>
+        </section>
     </div>
   );
 }

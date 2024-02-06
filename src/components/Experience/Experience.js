@@ -17,7 +17,7 @@ function Experience() {
                     <p>{job.description}</p>
                     <ul className="flex flex-wrap gap-2 list-disc">
                     {job.Responsibilities.map((responsibility, index) => (
-                        <li className="responsibility p-3" key={index}>{responsibility}</li>
+                        <li className="responsibility" key={index}>{responsibility}</li>
                     ))}
                     </ul>
                 </div>

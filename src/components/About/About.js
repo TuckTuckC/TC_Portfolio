@@ -1,10 +1,12 @@
 import React from 'react';
 import TC from '../../images/TC_SVG.svg'
+import GitHub from '../../images/github-mark-white.svg'
+import LinkedIn from '../../images/linkedin.svg'
 
 function About() {
   return (
-    <div className="about-container text-lg flex flex-col items-center justify-center md:w-5/12 md:h-full">
-      <img src={TC} className="w-2/12 p-3 text-white"></img>
+    <section id="about" smooth={true} duration={500} activeClass="active" className="md:pt-40 about-container text-lg flex flex-col items-center md:w-4/12 md:h-full">
+      <img src={TC} className="w-3/12 p-3 text-white"></img>
       <h1 className="text-3xl text-gray-200">Tucker Craig</h1>
       <h2 className="text-2xl text-gray-200">Full-Stack Software Engineer</h2>
 
@@ -20,8 +22,21 @@ function About() {
         <p className="w-9/12 pt-6">
         Fueled by a passion for understanding the 'why' behind technology, I approach software engineering with meticulous curiosity and forward-thinking, crafting code that not only functions efficiently but anticipates future needs.
         </p>
-        <div className="p-2">Contact</div>
-    </div>
+        <h2 className="text-2xl pt-8 text-gray-200">Contact Me!</h2>
+        <div className='flex flex-col pt-2'>
+            <a href="mailto:tuckermcraig@gmail.com">TuckerMCraig@gmail.com</a>
+            <a >(828) 318-6633</a>
+            <div className="flex gap-4 pt-4 justify-center">
+                <a className="h-10 w-10" href="https://github.com/TuckTuckC" target='_blank'>
+                    <img src={GitHub} />
+                </a>
+                <a className="h-10 w-10" href="https://github.com/TuckTuckC" target='_blank'>
+                    <img src={LinkedIn} />
+                </a>
+            </div>
+        </div>
+
+    </section>
   );
 }
 

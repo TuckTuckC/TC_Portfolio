@@ -17,10 +17,10 @@ const jobs = [
     },
     {
       id: 3,
-      title: "Teaching Assistant / Tutor",
-      Company: "edX",
-      Responsibilities: ['Facilitated the education of over 200 UK students in front-end development and related technologies', 'Coordinated group projects, ensuring 100% on-time completion and seamless progression.', 'Conducted review sessions, significantly enhancing student comprehension and performance.'],
-      Dates: "April 2022 - Present",
+      title: "Plumber / Sub-Contractor",
+      Company: "BC Plumbing",
+      Responsibilities: ['Similar to Agile Development, this involves breaking a big job into sections, and speaking with builders frequently for any changes or prioritizations.', 'Install pipe for the water and drainage systems on new houses.', 'Install water heaters, sinks, showers, bath tubs, ect.'],
+      Dates: "2017 - Present",
     },
     // Add more projects here
   ];
