@@ -3,9 +3,9 @@ import './Experience.css'
 
 import jobs from '../../data/jobData';
 
-function Experience() {
+function Experience({expRef}) {
   return (
-    <div className="flex flex-col items-center gap-20 md:mt-8">
+    <div ref={expRef} className="flex flex-col items-center gap-20 md:mt-8">
         <h1 className='text-4xl text-gray-200'>My Experience</h1>
         {jobs.map((job, index) => (
             <div className="job p-4 rounded-md w-11/12 gap-10 md:w-8/12 h-max flex flex-col md:flex-row">
