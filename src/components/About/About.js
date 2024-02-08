@@ -30,7 +30,7 @@ function About({aboutRef}) {
                 <a className="h-10 w-10" href="https://github.com/TuckTuckC" target='_blank'>
                     <img src={GitHub} />
                 </a>
-                <a className="h-10 w-10" href="https://github.com/TuckTuckC" target='_blank'>
+                <a className="h-10 w-10" href="https://www.linkedin.com/in/tucker-m-craig/" target='_blank'>
                     <img src={LinkedIn} />
                 </a>
             </div>
