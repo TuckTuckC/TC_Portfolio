@@ -37,6 +37,10 @@
   }
 } */
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   font-size: 1.06rem;
   line-height: 1.53rem;
