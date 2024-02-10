@@ -10,8 +10,8 @@ function Experience({expRef}) {
         {jobs.map((job, index) => (
             <div className="job p-4 rounded-md w-11/12 gap-10 md:w-8/12 h-max flex flex-col md:flex-row">
                 <div className="pr-4 md:w-6/12 text-center">
-                    <h1 className="text-2xl text-gray-300 text-right pb-4">{job.title}</h1>
-                    <h1 className="text-2xl text-gray-300 text-right pb-4">{job.Dates}</h1>
+                    <h1 className="text-2xl text-gray-300 text-left md:text-right pb-4">{job.title}</h1>
+                    <h1 className="text-2xl text-gray-300 text-left md:text-right pb-4">{job.Dates}</h1>
                 </div>
                 <div className="md:w-6/12">
                     <p>{job.description}</p>
