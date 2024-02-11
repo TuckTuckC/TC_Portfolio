@@ -37,13 +37,9 @@
   }
 } */
 
-html {
-  scroll-behavior: smooth;
-}
-
 * {
-  font-size: 1.06rem;
-  line-height: 1.53rem;
+  font-size: 1rem;
+  line-height: 1.2rem;
 }
 
 .scrollable {
@@ -57,4 +53,8 @@ html {
   
     /* Hide scrollbar for IE */
     -ms-overflow-style: none;
+}
+
+html {
+  scroll-behavior: smooth;
 }

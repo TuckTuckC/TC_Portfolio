@@ -7,8 +7,8 @@ function About({aboutRef}) {
   return (
     <section ref={aboutRef} id="about" smooth={true} duration={500} activeClass="active" className="md:pt-40 about-container text-lg flex flex-col items-center md:w-4/12 md:h-full">
       <img src={TC} className="w-3/12 p-3 text-white"></img>
-      <h1 className="text-3xl text-gray-200">Tucker Craig</h1>
-      <h2 className="text-2xl text-gray-200">Full-Stack Software Engineer</h2>
+      <h1 className="text-3xl text-gray-200 text-center">Tucker Craig</h1>
+      <h2 className="text-2xl text-gray-200 text-center">Full-Stack Software Engineer</h2>
 
       
         <p className="w-9/12 pt-6">
